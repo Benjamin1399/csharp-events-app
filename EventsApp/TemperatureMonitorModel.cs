@@ -6,7 +6,7 @@ namespace EventsApp
     {
         public event EventHandler<string> TemperatureExceeded;
 
-        private string TempID { get; set; }
+        public string TempID { get; set; }
         public double TempThreshold { get; set; }
 
         public TemperatureMonitorModel(string tempID, double tempThreshold)
